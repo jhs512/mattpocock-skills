@@ -6,7 +6,7 @@ It never reopens the plan. There is no interview, no clarifying round, no propos
 
 ## When to reach for it
 
-You invoke this by typing `/implement` yourself: the agent won't reach for it on its own. It ships with `disable-model-invocation: true`, so no other skill can call it either. Wherever [ask-matt](https://aihero.dev/skills-ask-matt) or [to-tickets](https://aihero.dev/skills-to-tickets) says "then `/implement` per ticket", that is an instruction to you, not something the agent will do unprompted.
+You invoke this by typing `/implement`. It used to ship with `disable-model-invocation: true`, which kept it out of the agent's reach entirely; it is now model-invoked, so wherever [ask-matt](https://aihero.dev/skills-ask-matt) or [to-tickets](https://aihero.dev/skills-to-tickets) says "then `/implement` per ticket", the agent can carry that step itself. Typing it yourself works exactly as before: model-invocation adds the agent's reach, it never removes yours.
 
 Where the work currently lives decides whether this is the right skill:
 
