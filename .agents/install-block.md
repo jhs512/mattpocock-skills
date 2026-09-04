@@ -1,6 +1,6 @@
 # The canonical install block
 
-One install story, one wording. `README.md`, `.changeset/*`, and every page under `docs/` must say **this** and nothing else. Change it here first, then propagate.
+One install story, one wording. `README.md`, `.changeset/*`, and every page under `docs/` must say **this** and nothing else. Change it here first, then propagate. `README.md` is in Korean, so what propagates there is the command blocks byte for byte, with the prose around them translated. The meaning lives here.
 
 This repo is a fork of `mattpocock/skills`, living at [jhs512/mattpocock-skills](https://github.com/jhs512/mattpocock-skills). Both install routes must name the fork. The upstream plugin listed in **Claude Code's official marketplace** (configured name `claude-plugins-official`) carries the same plugin name, `mattpocock-skills`, so an unqualified install resolves to upstream's build and quietly gets you upstream's skills instead of this fork's. The fork ships through its own marketplace, which is what `.claude-plugin/marketplace.json` is for.
 
